@@ -1,4 +1,4 @@
-﻿;
+﻿
 
 namespace CitasApp.Persistance.Payments
 {
