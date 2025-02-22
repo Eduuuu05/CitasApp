@@ -1,9 +1,9 @@
-﻿
-using CitasApp.Domain.Base;
+﻿using CitasApp.Domain.Base;
 
-namespace CitasApp.Domain.Entities.Usuarios
+namespace ClassApp.Domain.Entities.Usuarios
 {
     public class Permiso : AuditEntity
     {
-        public string Nombre { get; set; }
+        public required string Nombre { get; set; }
     }
+}

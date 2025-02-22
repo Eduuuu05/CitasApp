@@ -5,6 +5,8 @@ namespace CitasApp.Domain.Entities.Usuarios
 {
     public class Rol : AuditEntity
     {
-        public string Nombre { get; set; }
-        public ICollection<Usuario> Usuarios { get; set; }
+        public required string Nombre { get; set; }
+        public required ICollection<Usuario> Usuarios { get; set; }
     }
+
+}
