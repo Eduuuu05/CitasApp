@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasApp.Domain", "CitasApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasApp.Persistance", "CitasApp.Persistance\CitasApp.Persistance.csproj", "{586E8CC7-081E-4787-966E-BD267BC50151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasApp.Infraestructure", "CitasApp.Infraestructure\CitasApp.Infraestructure.csproj", "{E82DC91F-7815-4CBF-A5E6-E442D71AE290}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasApp.Infrastructure", "CitasApp.Infraestructure\CitasApp.Infrastructure.csproj", "{E82DC91F-7815-4CBF-A5E6-E442D71AE290}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{5976E0B7-D9E6-4453-8733-9B98E5ACA0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasAppAPI", "CitasAppAPI\CitasAppAPI.csproj", "{07698DBC-2608-4668-A830-70AFF0B26A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{E82DC91F-7815-4CBF-A5E6-E442D71AE290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82DC91F-7815-4CBF-A5E6-E442D71AE290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82DC91F-7815-4CBF-A5E6-E442D71AE290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07698DBC-2608-4668-A830-70AFF0B26A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07698DBC-2608-4668-A830-70AFF0B26A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07698DBC-2608-4668-A830-70AFF0B26A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07698DBC-2608-4668-A830-70AFF0B26A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
